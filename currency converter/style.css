@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+  min-height:100%;
+  font: Arial 14px;
+}
+.currency-container{width: 80%;
+  height: 50vh;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 5vh;
+  box-shadow: 2px 2px 3px gray;
+}
+.h1{color: gray;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#output{border: 2px ridge black;
+  width: 25%;
+  height: 10vh;
+  margin: auto;
+  margin-top: 2%;
+  overflow-wrap: break-word;
+}
+#output2{border: 2px ridge black;
+ 
+  width: 25%;
+  height: 10vh;
+  margin: auto;
+  margin-top: 2%;
+  overflow-wrap: break-word;
+}
+.dton{
+  box-shadow: 2px 2px 4px gray;
+  width: 48%;
+  margin: auto;
+  border: 2px solid yellow;
+}
+
+.flexbox{
+  display: flex;
+
+}
