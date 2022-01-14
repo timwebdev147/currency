@@ -5,41 +5,65 @@ body, html {
   min-height:100%;
   font: Arial 14px;
 }
-.currency-container{width: 80%;
-  height: 50vh;
-  border: 3px solid black;
+.currency-container{width: 30%;
+  min-height: 50vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
   margin: auto;
   margin-top: 5vh;
+  border-radius: 10px;
   box-shadow: 2px 2px 3px gray;
+  background-color: rgb(194, 215, 235) ;
+  padding: 10px 0 0 0;
 }
-.h1{color: gray;
+.h1{color: grey;
   text-align: center;
-  text-transform: uppercase;
+  
+  text-transform: capitalize;
   font-size: 30px;
 }
-#output{border: 2px ridge black;
+.output{
+  
   width: 25%;
-  height: 10vh;
+  height: 8vh;
   margin: auto;
   margin-top: 2%;
+  border-radius: 5px;
+  background-color: #fff;
   overflow-wrap: break-word;
 }
-#output2{border: 2px ridge black;
- 
-  width: 25%;
-  height: 10vh;
-  margin: auto;
-  margin-top: 2%;
-  overflow-wrap: break-word;
-}
+
 .dton{
-  box-shadow: 2px 2px 4px gray;
-  width: 48%;
-  margin: auto;
-  border: 2px solid yellow;
+  box-shadow: 2px 2px 4px black;
+  width: 70%;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: gray;
+}
+.input1{
+  height: 4vh;
+  border-radius: 10px;
+  border: none;
 }
 
 .flexbox{
   display: flex;
-
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  text-align: center;
+  font-size: large;
+  text-transform: capitalize;
+  color: rgb(66, 64, 64);
+  font-weight: 600;
+}
+button{
+  background-color: rgb(194, 215, 235);
+  padding: 4px;
+  border-radius: 10px;
 }
